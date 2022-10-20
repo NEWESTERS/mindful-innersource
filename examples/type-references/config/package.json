@@ -1,0 +1,17 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "types": "env.d.ts",
+  "dependencies": {
+    "ts-loader": "^9.4.1"
+  },
+  "peerDependencies": {
+    "typescript": ">=4",
+    "webpack": ">=5"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0"
+  }
+}

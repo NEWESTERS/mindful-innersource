@@ -1,0 +1,9 @@
+{
+    "extends": "@innersource/heft-rig/profiles/library/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "lib/esm",
+        "declarationDir": "temp/types",
+        "lib": ["DOM", "ESNext"]
+    },
+    "include": ["src"]
+}

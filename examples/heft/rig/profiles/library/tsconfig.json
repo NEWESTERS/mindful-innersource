@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "module": "ESNext",
+        "target": "ES5",
+        "moduleResolution": "Node",
+        "allowJs": false,
+        "strict": true,
+        "declaration": true,
+        "sourceMap": true,
+        "types": ["heft-jest"]
+    }
+}

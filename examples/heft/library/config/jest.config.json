@@ -1,0 +1,3 @@
+{
+    "extends": "@innersource/heft-rig/profiles/library/config/jest.config.json"
+}
