@@ -2,7 +2,8 @@
   "name": "changelogs",
   "version": "1.0.0",
   "scripts": {
-    "change": "changeset"
+    "change": "changeset",
+    "release": "changeset version"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.0"
