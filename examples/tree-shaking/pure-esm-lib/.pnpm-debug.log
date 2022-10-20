@@ -1,0 +1,114 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 3,
+    "total": 3,
+    "workspacePrefix": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "cjs-lib",
+      "version": "1.0.0",
+      "main": "src/index.js"
+    },
+    "prefix": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking/cjs-lib"
+  },
+  "2 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "esm-lib",
+      "version": "1.0.0",
+      "module": "lib/index.js",
+      "types": "lib/index.d.ts",
+      "scripts": {
+        "build": "tsc"
+      },
+      "peerDependencies": {
+        "react": ">=17"
+      },
+      "devDependencies": {
+        "@types/react": "^18.0.21",
+        "react": "^18.2.0",
+        "typescript": "^4.8.4"
+      }
+    },
+    "prefix": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking/esm-lib"
+  },
+  "3 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "app",
+      "version": "1.0.0",
+      "scripts": {
+        "build": "webpack"
+      },
+      "dependencies": {
+        "cjs-lib": "workspace:*",
+        "esm-lib": "workspace:*",
+        "pure-esm-lib": "workspace:*",
+        "react": "^18.2.0"
+      },
+      "devDependencies": {
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+      }
+    },
+    "prefix": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking/app"
+  },
+  "4 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/Users/landslide/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking/node_modules/.pnpm"
+  },
+  "5 debug pnpm:stage": {
+    "prefix": "/Users/landslide/Code/mindful-innersource/examples/tree-shaking",
+    "stage": "resolution_started"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "link:../cjs-lib",
+    "wanted": {
+      "dependentId": "app",
+      "name": "cjs-lib",
+      "rawSpec": "workspace:*"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "link:../esm-lib",
+    "wanted": {
+      "dependentId": "app",
+      "name": "esm-lib",
+      "rawSpec": "workspace:*"
+    }
+  },
+  "8 error pnpm": {
+    "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "In ../app: No matching version found for pure-esm-lib@* inside the workspace",
+      "code": "ERR_PNPM_NO_MATCHING_VERSION_INSIDE_WORKSPACE",
+      "stack": "pnpm: In ../app: No matching version found for pure-esm-lib@* inside the workspace\n    at tryResolveFromWorkspace (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85656:15)\n    at resolveNpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85547:39)\n    at Object.resolve (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85779:40)\n    at ctx.requestsQueue.add.priority (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71711:75)\n    at run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71427:90)\n    at PQueue._tryToStartAnother (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71381:13)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71440:16\n    at new Promise (<anonymous>)\n    at PQueue.add (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71422:16)\n    at resolveAndFetch (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:71711:55)"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "192.168.0.119+49156/webpack/5.74.0",
+    "wanted": {
+      "dependentId": "app",
+      "name": "webpack",
+      "rawSpec": "^5.74.0"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "192.168.0.119+49156/webpack-cli/4.10.0",
+    "wanted": {
+      "dependentId": "app",
+      "name": "webpack-cli",
+      "rawSpec": "^4.10.0"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "192.168.0.119+49156/react/18.2.0",
+    "wanted": {
+      "dependentId": "app",
+      "name": "react",
+      "rawSpec": "^18.2.0"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "lib1",
+  "version": "1.0.0",
+  "module": "src/index.ts",
+  "dependencies": {
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.28.17",
+    "typescript": "^4.8.4"
+  }
+}

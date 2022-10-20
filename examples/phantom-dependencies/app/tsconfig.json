@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "outDir": "build",
+        "moduleResolution": "Node",
+        "skipLibCheck": true
+    },
+    "include": ["src"]
+}

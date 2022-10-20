@@ -1,0 +1,10 @@
+{
+  "name": "changelogs",
+  "version": "1.0.0",
+  "scripts": {
+    "change": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.25.0"
+  }
+}

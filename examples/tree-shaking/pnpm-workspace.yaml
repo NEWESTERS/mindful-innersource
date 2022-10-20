@@ -1,0 +1,5 @@
+packages:
+  - app
+  - cjs-lib
+  - esm-lib
+  - pure-esm-lib

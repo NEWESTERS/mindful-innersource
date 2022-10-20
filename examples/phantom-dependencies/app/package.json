@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "dependencies": {
+    "lib2": "file:../libraries/lib2/lib2-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "outDir": "lib",
+        "declaration": true,
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "Node"
+    },
+    "include": ["src"]
+}

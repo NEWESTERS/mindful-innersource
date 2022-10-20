@@ -1,0 +1,8 @@
+{
+    "name": "phantom-dependencies",
+    "workspaces": [
+        "app",
+        "lib1",
+        "lib2"
+    ]
+}
