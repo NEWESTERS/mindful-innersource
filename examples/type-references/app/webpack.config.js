@@ -1,4 +1,4 @@
-const createConfig = require("config");
+const createConfig = require("@innsersource/config");
 const path = require("path");
 
 module.exports = createConfig(

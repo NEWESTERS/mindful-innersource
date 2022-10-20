@@ -1,5 +1,5 @@
 {
-  "name": "config",
+  "name": "@innersource/config",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "types": "env.d.ts",

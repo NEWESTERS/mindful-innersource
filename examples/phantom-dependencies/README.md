@@ -11,3 +11,7 @@
 При запуске пакета `app` происходит ошибка "невозможно найти модуль `ramda`"
 
 Воспроизведение: `./reproduce.sh`
+
+## Что почитать
+
+- [Документация Rush](https://rushjs.io/pages/advanced/phantom_deps/)
