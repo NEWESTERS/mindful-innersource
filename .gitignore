@@ -4,3 +4,4 @@ node_modules
 temp
 .heft
 .DS_Store
+*.tgz

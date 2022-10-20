@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "lib": ["DOM"],
+        "lib": ["DOM", "ESNext"],
         "types": ["config"]
     },
     "include": ["src"]
