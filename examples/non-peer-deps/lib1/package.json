@@ -6,12 +6,11 @@
   "scripts": {
     "build": "tsc"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^17.0.0"
   },
   "devDependencies": {
     "typescript": "^4.8.4",
-    "react": "^17.0.0",
     "@types/react": "^17.0.0"
   }
 }

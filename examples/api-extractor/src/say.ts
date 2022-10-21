@@ -1,6 +1,6 @@
 /**
  * Параметры фразы
- * @private
+ * @internal
  */
 export interface SayOptions {
   /** Настроение фразы */
@@ -11,7 +11,7 @@ export interface SayOptions {
  * Произнести фразу
  * @param phrase - фраза
  * @param options - параметры фразы
- * @private
+ * @internal
  */
 function say(phrase: string, options: SayOptions = {}): void {
   let moodSymbol = "";

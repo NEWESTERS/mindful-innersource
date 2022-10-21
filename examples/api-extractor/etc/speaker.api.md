@@ -19,6 +19,4 @@ export interface SayHelloOptions extends SayOptions {
     name?: string;
 }
 
-// (No @packageDocumentation comment for this package)
-
 ```
