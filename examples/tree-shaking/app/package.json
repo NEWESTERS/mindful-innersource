@@ -9,6 +9,7 @@
     "cjs-lib": "workspace:*",
     "esm-lib": "workspace:*",
     "pure-esm-lib": "workspace:*",
+    "non-se-esm-lib": "workspace:*",
     "react": "^18.2.0"
   },
   "devDependencies": {

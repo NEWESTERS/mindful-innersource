@@ -6,6 +6,7 @@ importers:
     specifiers:
       cjs-lib: workspace:*
       esm-lib: workspace:*
+      non-se-esm-lib: workspace:*
       pure-esm-lib: workspace:*
       react: ^18.2.0
       source-map-explorer: ^2.5.3
@@ -14,6 +15,7 @@ importers:
     dependencies:
       cjs-lib: link:../cjs-lib
       esm-lib: link:../esm-lib
+      non-se-esm-lib: link:../non-se-esm-lib
       pure-esm-lib: link:../pure-esm-lib
       react: 18.2.0
     devDependencies:
@@ -32,6 +34,16 @@ importers:
       typescript: 4.8.4
 
   esm-lib:
+    specifiers:
+      '@types/react': ^18.0.21
+      react: ^18.2.0
+      typescript: ^4.8.4
+    devDependencies:
+      '@types/react': 18.0.21
+      react: 18.2.0
+      typescript: 4.8.4
+
+  non-se-esm-lib:
     specifiers:
       '@types/react': ^18.0.21
       react: ^18.2.0

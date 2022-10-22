@@ -13,3 +13,4 @@
 ## Что почитать
 
 - [Документация Rush](https://rushjs.io/pages/advanced/npm_doppelgangers/)
+- [source-map-explorer](https://github.com/danvk/source-map-explorer)

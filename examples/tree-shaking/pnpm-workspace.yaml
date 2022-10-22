@@ -3,3 +3,4 @@ packages:
   - cjs-lib
   - esm-lib
   - pure-esm-lib
+  - non-se-esm-lib
