@@ -33,7 +33,7 @@
 - [@babel/preset-react](https://babeljs.io/docs/en/babel-preset-react#pure)
 - ["sideEffects"](https://webpack.js.org/configuration/optimization/#optimizationsideeffects)
 - [Переход на ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
-- [Экспириментальная поддержка ESM в Jest](https://github.com/facebook/jest/blob/64de4d7361367fd711a231d25c37f3be89564264/docs/ECMAScriptModules.md)
+- [Экспериментальная поддержка ESM в Jest](https://github.com/facebook/jest/blob/64de4d7361367fd711a231d25c37f3be89564264/docs/ECMAScriptModules.md)
 
 ### API пакета
 
