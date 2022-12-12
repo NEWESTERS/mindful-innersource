@@ -11,7 +11,9 @@ export interface SayHelloOptions extends SayOptions {
 
 /**
  * Сказать "привет"
+ *
  * @param options - параметры приветствия
+ *
  * @public
  */
 function sayHello(options: SayHelloOptions = {}): void {

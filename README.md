@@ -4,6 +4,8 @@
 
 ## Ссылки
 
+Мой телеграм-канал про JavaScript: <https://t.me/hacknote_js>
+
 ### Установка зависимостей
 
 - [peerDependencies](https://nodejs.org/es/blog/npm/peer-dependencies/)
@@ -16,6 +18,7 @@
 
 - [Semver](https://semver.org)
 - [@changesets/cli](https://www.npmjs.com/package/@changesets/cli)
+- [Материалы по версионированию](https://lfx.rushstack.io/pages/concepts/version_conflicts/)
 
 ### Сборка
 
@@ -26,6 +29,7 @@
 ### Dead code elimination
 
 - [Webpack tree shaking](https://webpack.js.org/guides/tree-shaking/)
+- [ESM Static module structure](https://exploringjs.com/es6/ch_modules.html#static-module-structure)
 - [@babel/preset-react](https://babeljs.io/docs/en/babel-preset-react#pure)
 - ["sideEffects"](https://webpack.js.org/configuration/optimization/#optimizationsideeffects)
 - [Переход на ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
